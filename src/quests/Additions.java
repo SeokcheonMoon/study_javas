@@ -1,3 +1,4 @@
+package quests;
 // 외부 입력
 import java.util.Scanner;
 
