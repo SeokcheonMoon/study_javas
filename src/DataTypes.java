@@ -10,6 +10,8 @@ public class DataTypes {
         String stringfirst = "Hello Datatypes!";
         System.out.println("String string First : " + stringfirst);
 
+        float floatFirst = 2 / 3;
+        System.out.println("float First : " + floatFirst);
         return ;
     }
 }
