@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class LoopsFors {
     public static void main(String[] args){     // static 과 main은 한 쌍으로 이루어진다.(규칙)
         /*
@@ -15,6 +17,21 @@ public class LoopsFors {
         for (int count = 1 ; count <= 5 ; count++){
             System.out.println("For count : " + count);
         }
+        ArrayList<String> listFrist = new ArrayList<String>();
+        // 값 넣기
+        listFrist.add("Volvo");
+        listFrist.add("BMW");
+        listFrist.add("Ford");        
+        for(int i=0; i<listFrist.size(); i++){
+            System.out.println(listFrist.get(i));
+        }
+        for (String str:listFrist){
+            System.out.println(str);
+        }
+        // for (type variableName : arrayName){
+        //     code block to be excuted
+        // }
+
         System.out.println("Hello Main !");
     }
 }
