@@ -1,4 +1,4 @@
-public class Loops_Fors {
+public class LoopsFors {
     public static void main(String[] args){     // static 과 main은 한 쌍으로 이루어진다.(규칙)
         /*
             for문 동작하기 위한 조건 : 시작점, 최종점, 반복횟수
